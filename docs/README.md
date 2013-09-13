@@ -1,41 +1,31 @@
-jCarousel - Riding carousels with jQuery
-========================================
+jCarousel Documentation
+=======================
 
 jCarousel is a jQuery plugin for controlling a list of items in horizontal or
 vertical order. It provides a full-featured and flexible toolset for navigating
 any HTML based content in a carousel-like fashion.
 
-`Download <https://github.com/jsor/jcarousel/archive/master.zip>`_ | `Repository at GitHub <https://github.com/jsor/jcarousel/>`_ | `Bugtracker <https://github.com/jsor/jcarousel/issues>`_
-
 Reference
 ---------
 
-.. toctree::
-   :maxdepth: 2
-
-   reference/installation
-   reference/configuration
-   reference/api
-   reference/usage
-   reference/events
+* [Installation](reference/installation.md)
+* [Configuration](reference/configuration.md)
+* [API](reference/api.md)
+* [Usage](reference/usage.md)
+* [Events](reference/events.md)
 
 Plugins
 -------
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   plugins/index
+* [Control Plugin](plugins/control/)
+* [Pagination Plugin](plugins/pagination/)
+* [Autoscroll Plugin](plugins/autoscroll/)
+* [ScrollIntoView Plugin](plugins/scrollintoview/)
 
 Cookbook
 --------
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   cookbook/*
+* [How to define a custom start position](cookbook/custom-start-position.md)
 
 Credits
 -------
